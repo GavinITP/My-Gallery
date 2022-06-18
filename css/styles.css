@@ -154,3 +154,18 @@ body {
     gap: 20px;
   }
 }
+
+/* Website owner */
+.website-owner {
+  color: #a9a9a9;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.website-owner a {
+  color: #a9a9a9;
+  font-weight: 700;
+}

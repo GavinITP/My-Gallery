@@ -10,12 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=optional"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>My Gallery</title>
   </head>
   <body>
-    <section class="profile">
+    <section class="profile" data-aos="zoom-in">
       <img
         class="profile__picture"
         src="images/profilePhoto.webp"
@@ -24,7 +25,7 @@
       <h1 class="profile__name profile--darkgray">Rodney Cotton</h1>
       <p class="profile__location profile--lightgrey">Helsinki, Finland</p>
     </section>
-    <section class="badge-group">
+    <section class="badge-group" data-aos="zoom-in">
       <div class="badge badge--gray">
         <p class="badge__stat badge__stat--darkgray">100</p>
         <p class="badge__description badge__description--lightgray">posts</p>
@@ -40,7 +41,7 @@
         </p>
       </div>
     </section>
-    <section class="gallery container">
+    <section class="gallery container" data-aos="fade-up">
       <img class="gallery__photo photo-1" src="images/photo1.webp" alt="" />
       <img class="gallery__photo photo-2" src="images/photo2.webp" alt="" />
       <img class="gallery__photo photo-3" src="images/photo3.webp" alt="" />
@@ -52,5 +53,9 @@
       created by <a href="https://github.com/GavinITP">GavinITP</a> -
       devChallenges.io
     </p>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
